@@ -19,7 +19,7 @@ _ "github.com/aah-cb/redis-session-store"
       # Filepath is used for file store to store session file in the file system.
       # This is only applicable for `type = "file"`, make sure application has
       # Read/Write access to the directory. Provide absolute path.
-     #  filepath = "E:/golang/work/src/mycp.cn/casino/sessions"
+     #  filepath = "sessions"
       redis {
           # the redis network option, "tcp"
           network = "tcp"
